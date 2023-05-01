@@ -6,7 +6,6 @@ from pymongo.mongo_client import MongoClient
 
 # Create a new client and connect to the server
 client = pymongo.MongoClient("mongodb+srv://MachineLearning:ganesh22@atlascluster.nu0ydew.mongodb.net/?retryWrites=true&w=majority")
-
 # Send a ping to confirm a successful connection
 try:
     client.admin.command('ping')
