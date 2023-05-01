@@ -1,0 +1,8 @@
+pandas
+numpy
+matplotlib
+seaborn
+pymongo
+-e .
+# Note :- -e is nothing but editable mode i.e. Whatever we mention under setup.py we can alter and  . represent Current Directory.
+
